@@ -1,1 +1,1 @@
-# Bluetooth Low Energy Server# ESP32-Nimble-BLE-Example
+# ESP32 Nimble BLE Example
