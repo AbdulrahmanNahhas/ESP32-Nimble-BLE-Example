@@ -1,0 +1,26 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "build": true,
+    ".vscode": true,
+    ".devcontainer": true
+  },
+  "hide-files.files": [
+    "build",
+    ".vscode",
+    ".devcontainer"
+  ],
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "ble_hs.h": "c",
+    "nimble_component.h": "c",
+    "nimble_port.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}
