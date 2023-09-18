@@ -1,3 +1,5 @@
+#pragma once
+// ! bleprph.h -> misc.h
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -16,10 +18,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-// ! bleprph.h -> misc.h
-
-#ifndef H_BLEPRPH_
-#define H_BLEPRPH_
 
 #include <stdbool.h>
 #include "nimble/ble.h"

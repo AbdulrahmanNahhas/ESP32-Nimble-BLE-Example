@@ -20,7 +20,8 @@
   "files.associations": {
     "ble_hs.h": "c",
     "nimble_component.h": "c",
-    "nimble_port.h": "c"
+    "nimble_port.h": "c",
+    "ble.h": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
