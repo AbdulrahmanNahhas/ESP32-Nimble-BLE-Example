@@ -6,54 +6,35 @@ To build and run this example, you will need:
 
 * An ESP32 board
 * The Nimble BLE library (you can enable it from esp-idf menuconfig)
-* The ESP-IDF development framework
+* The ESP-IDF development framework (vs code extension)
 
 Once you have all of the necessary prerequisites, you can build and run the example as follows:
 
-1. Clone the ESP-IDF repository:
-
-```
-git clone https://github.com/AbdulrahmanNahhas/ESP32-Nimble-BLE-Example.git
-
-```
-
-2. Change directory to the ESP-IDF repository:
-
-```
-cd ESP32-Nimble-BLE-Example
-```
-
-3. Export the ESP-IDF environment variables:
-
-```
-export IDF_PATH=$PWD
-```
-
-4. Clone the ESP32-Nimble-BLE-Example repository:
+1. Clone the ESP32-Nimble-BLE-Example repository:
 
 ```
 git clone https://github.com/espressif/esp32-nimble-ble-example.git
 ```
 
-5. Change directory to the ESP32-Nimble-BLE-Example repository:
+2. Change directory to the ESP32-Nimble-BLE-Example repository:
 
 ```
 cd esp32-nimble-ble-example
 ```
 
-6. Build the example:
+3. Build the example:
 
 ```
 idf.py build
 ```
 
-7. Flash the example to the ESP32 board:
+4. Flash the example to the ESP32 board:
 
 ```
 idf.py flash
 ```
 
-8. Monitor the serial output of the ESP32 board to see the BLE advertising messages:
+5. Monitor the serial output of the ESP32 board to see the BLE advertising messages:
 
 ```
 idf.py monitor
